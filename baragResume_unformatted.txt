@@ -1,0 +1,146 @@
+==================
+Sean Barag
+==================
+~/ Bensalem, PA
+#  +1(215)-380-8844
+@  sjbarag@gmail.com
+<> http://github.com/sjbarag
+
+Education
+=========
+* Drexel University (Philadelphia, PA)
+* BS Candidate in Computer Engineering
+* BS Candidate in Electrical Engineering, Electronics
+* Cumulative GPA: 3.57 | In Major: 3.63
+* Anticipated Graduation - June 2013
+
+
+Honors and Awards
+=================
+* Android app "Textspansion" - 4600+ Downloads
+** "Best Text Expansion App for Android" - Lifehacker.com
+* Dean's List (5x)
+* A.J. Drexel Scholarship Participant
+* National Society of Collegiate Scholars Member
+
+
+Experience
+==========
+Lockheed Martin MS2 in Moorestown NJ
+Coop Technical Senior - Information Assurance (IA)
+April - September 2012
+----------------------
+* Scan mission-critical systems for vulnerabilities with automated and manual tools
+* Harden mission-critical systems by applying updates and patches
+* Research new scanning software to comply with new DoD standards requirements
+* Write Excel plugin to automatically format data for vulnerability reports
+* Run bi-weekly departmental meetings on current tool status and best-use information
+* Coordinate with senior engineers and senior executives for weekly status updates
+
+Lockheed Martin MS2 in Moorestown NJ
+Coop Technical Senior - Computer Infrastructure and Information Testing (CIIT)
+March - September 2011
+----------------------
+* Wrote Bash scripts to expedite deployment and integration processes
+* Developed, tested, and documented backup procedures for servers, diskless & iSCSI disk-based nodes
+* Worked alongside Sr. Engineers in development of Cisco IOS applet to monitor CF cards containing critical ship status information
+* Wrote VBA script to categorize 4000+ pieces of equipment for proposal
+* Refreshed firmware update procedure deployed to soldiers and used on 100+ systems within LM
+* All work used on US Government Secret classified systems
+
+ACIN (Applied Communications and Information Networking) in Camden, NJ
+Researcher - Directed by Dr. William Regli and Jeff Salvage
+March - September 2010
+----------------------
+* Configured and tested four-node homogenous networking testbed
+* Established stable multi-node MANET[1] with WPA2- Preshared Key and IPSec encryption
+* Contributed to VoIP plugin for C2MINCS[2] Situational Awareness software
+* Configured several networks for the 2010 C4ISR[3] OTM (On the Move) excoursion in Ft. Dix, NJ
+* Completed performance testing for commercial 802.11g wireless adapters and military SRW[4] JTRS[5] devices
+* Represented ACIN at the 2010 Team C4ISR Symposium and Expo in Baltimore, MD
+* Communicated directly with project sponsors from US defense contractor CERDEC
+
+GICL (Geometric and Intelligent Computing Lab) in Philadelphia, PA
+Lab Assistant - Directed by Dr. William Regli
+July 2009 - March 2010
+----------------------
+* Part of team that built and populated Engineering Format Registry
+* Designed and coordinated CD production for 2009 SIAM[6]/ACM[7] joint conference
+* Set up sandbox server with extended MediaWiki installation
+* Created custom "Semantic Infobox" template using Semantic MediaWiki
+* Utilized SUMO[8] and UNSPSC[9] ontologies in a Semantic Template
+* Organized and inventoried journal publications, computer parts, and other hardware
+
+
+Projects
+========
+Textspansion
+* Text expansion for Android devices
+* Released June 2011, under continued development
+Asana for Android
+* Native Android client for asana.com collaborative planning webapp
+* Unreleased, under active development
+Boot2Gecko Port
+* Exploring port of Boot2Gecko for HTC Ace (Desire HD/Inspire 4G)
+* Very early in process - no significant progress yet
+Notman
+* Linux D-Bus notification manager in Python & PyGTK
+* Proof-of-concept complete, shelved
+YADA ("Yet Another Dropbox App")
+* Hash-based client/server file sync in C
+* Completed for school assignment, development ceased
+MetronOSH
+* Arduino-based Open Source Hardware metronome (similar to Boss DB-88)
+* Submitted to 2011 Open Hardware Summit scholarship contest, shelved
+RADuation Cap
+* 8x8 RGB LED array on graduation cap
+* Arduino driven, controlled over Bluetooth via Android
+* In initial design phase, to be used in June 2013
+
+
+Skills
+======
+Languages
+* C
+* Java
+* LaTeX
+* Bash & Zsh
+* Python
+* Perl (a bit rusty)
+
+Software & Toolkits
+* Linux CLI Toolchain
+* Vim
+* Git, Mercurial, Subversion
+* Android SDK
+* Arduino
+* Wireshark
+* GNU Make
+
+Networking Procols
+* Gatewaying
+* HTTP
+* Mobile Ad-Hoc Networking
+* Multicast
+* TCP/IP
+* UDP
+* WPA & WPA2
+
+Operating Systems
+* Linux (Arch, RHEL, Ubuntu)
+* Unix (Solaris 9)
+* Mac OS (10.5, 10.6)
+* Windows (95 - 7)
+
+
+Acronyms
+========
+[1] Mobile Ad-Hoc Network
+[2] Command and Control Mobile Intelligent Net-centric Computer System
+[3] Command, Control, Communications, Intelligence, Surveillance, and Reconnaissance
+[4] Soldier Radio Waveform
+[5] Joint Tactical Radio System
+[6] Society for Industrial and Applied Mathematics
+[7] Association for Computing Machinery
+[8] Suggested Upper Merged Ontology
+[9] United Nations Standard Products and Services Code
