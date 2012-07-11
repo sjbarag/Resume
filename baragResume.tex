@@ -1,0 +1,169 @@
+\documentclass[10pt]{barag_resume}
+
+\hypersetup{
+	pdftitle={Sean Barag's Resume},
+	pdfauthor={Sean Barag},
+	pdfsubject={Sean Barag's Resume},
+	pdfkeywords=%
+		{C Java Python Perl Bash Android AndroidSDK Assembly  % languages
+		Linux RHEL Red Hat RedHat Ubuntu Arch Unix            % *nix
+		Mac OS MacOS Windows Cisco IOS CiscoIOS               % !*nix
+		Git Mercurial SVN Subveresion PyGTK                   % toolchains
+		Wireshark Apache Ant Make JUnit Emma                  % toolchains 2
+		Gatewaying HTTP Multicast TCP IP TCP/IP UDP WPA WPA2  % protocols
+		Lifehacker Textspansion Best Text Expansion App       % Textspansion
+		Lockheed Martin LockheedMartin MS2 IA CIIT            % LM positions
+		Vulnerability Scan Clearance Install Deploy Backup    % LM duties
+		DOD MANET Ad-Hoc AdHoc Ad Hoc 802.11 VoIP             % ACIN tech
+		WPA WPA2 WPA2-PSK IPSec                               % ACIN tech 2
+		GitHub Drexel University DU Dean's List},             % misc
+}
+
+\author{Sean Barag}
+\homeaddress{Bensalem, PA}
+\phonenumber{+1(215)-380-8844}
+\emailaddress{sjbarag@gmail.com}
+\portfolio{http://github.com/sjbarag}
+
+\begin{document}
+	\section{Education}% a single parenthesis (or a \relax) is required after each \section command.
+		\textbf{Drexel University} \hfill Philadelphia, PA\\
+		Bachelor of Science Candidate in Computer Engineering \hfill Anticipated Graduation --- June 2013\\
+		Bachelor of Science Candidate in Electrical Engineering, Electronics\\
+		\textbf{Cumulative GPA: 3.57 $|$ In Major: 3.63}
+
+
+	\section{Honors and Awards}%
+		Android app ``Textspansion'' --- \textbf{4200+ Downloads}\\ {\setlength{\parindent}{1em}
+			\indent ``Best Text Expansion App for Android'' --- Lifehacker.com\\
+		Dean's List (5x)\\
+		A.J. Drexel Scholarship Recipient\\
+		National Society of Collegiate Scholars Member}
+
+
+	\section{Experience}%
+		\renewcommand{\labelitemi}{$\cdot$}	 % use cdot as a bullet here.  It sticks out less.
+		% start timeline
+		\begin{tikzpicture}[overlay, >=latex']
+			\node[minimum width=\textwidth + 8pt, minimum height=15cm]
+				at (current bounding box.center) [anchor = north west, xshift=-8pt, yshift=1.5em] (tlbox) {};
+			\draw[color=gray, dotted, very thick] (tlbox.south west) -- ++(0, -0.6cm);
+			\draw[color=gray, very thick, ->] (tlbox.south west) -- (tlbox.north west);
+		\end{tikzpicture}\relax
+		% this comment prevents extra vertical space before the first job
+		\hspace{-2.5pt}\relax
+		\begin{job}{Lockheed Martin MS2}
+			{Moorestown, NJ}
+			{Coop Technical Senior --- Information Assurance (IA)}
+			{Apr -- Sep 2012}
+			\item Scan mission-critical systems for vulnerabilities with automated and manual tools
+			\item Harden mission-critical systems by applying updates and patches
+			\item Research new scanning software to comply with changing DoD standards requirements
+			\item Write Excel plugin to format data for vulnerability database system
+			\item Run bi-weekly departmental meetings on current tool status and best-use information
+			\item Coordinate with senior engineers and senior executives for weekly status updates
+		\end{job}
+
+		\begin{job}{Lockheed Martin MS2}
+			{Moorestown, NJ}
+			{Coop Technical Senior --- Computer Infrastructure Integration \& Testing (CIIT)}
+			{Mar -- Sep 2011}
+			\item Wrote Bash scripts to expedite deployment and integration processes
+			\item Developed, tested, and documented backup procedures for servers, diskless \& iSCSI disk-based nodes
+			\item Worked alongside Sr.\ Engineers in development of Cisco IOS applet to monitor CF cards containing critical ship status information
+			\item Wrote VBA script to categorize 4000+ pieces of equipment for proposal
+			\item Refreshed firmware update procedure deployed to soldiers and used on 100+ systems within LM
+			\item All work used on US Government Secret classified systems
+		\end{job}
+
+		\begin{job}{ACIN (Applied Communications and Information Networking)}
+			{Camden, NJ}
+			{Researcher, Directed by Dr. William Regli and Jeff Salvage}
+			{Mar -- Sep 2010}
+			\item Configured and tested four-node homogeneous networking testbed
+			\item Established stable multi-node MANET with WPA2-Preshared Key and IPSec encryption
+			\item Contributed to VoIP plugin for C2MINCS\footnote{Command and Control Mobile Intelligent Net-centric Computer System} Situational Awareness software
+			\item Configured several networks for the 2010 C4ISR\footnote{Command, Control, Communications, Computers, Intelligence, Surveillance, and Reconnaissance} OTM (On the Move) excursion in Ft. Dix, NJ
+			\item Completed performance testing for commercial 802.11g wireless adapters and military SRW\footnote{Soldier Radio Waveform} JTRS\footnote{Joint Tactical Radio System}
+			\item Represented ACIN at the 2010 Team C4ISR Symposium and Expo in Baltimore, MD
+			\item Communicated directly with project sponsors from US defense contractor CERDEC
+		\end{job}
+
+		\begin{job}{GICL (Geometric and Intelligent Computing Lab)}
+			{Philadelphia, PA}
+			{Lab Assistant, Directed by Dr. William Regli}
+			{Jul 2009 -- Mar 2010}
+			\item Part of team that built and populated Engineering Format Registry
+			\item Designed and coordinated CD production for 2009 SIAM\footnote{Society for Industrial and Applied Mathematics}/ACM\footnote{Association for Computing Machinery} joint conference
+			\item Set up sandbox server with extended MediaWiki installation
+			\item Created custom ``Semantic Infobox'' template using Semantic MediaWiki
+			\item Utilized SUMO\footnote{Suggested Upper Merged Ontology} and UNSPSC\footnote{United Nations Standard Products and Services Code} ontologies in a Semantic Template
+			\item Organized and inventoried journal publications, computer parts, and other hardware
+		\end{job}
+
+
+	\newpage
+	\section{Projects}%
+		{\large \emph{Textspansion}} --- Text expansion for Android devices\\{\setlength{\parindent}{1em}
+			\indent Released June 2011, under continued development\\
+		{\large \emph{Asana for Android}} --- Native Android client for \url{asana.com} collaborative planning webapp\\
+			\indent Unreleased, under active development\\
+		{\large \emph{Boot2Gecko}} --- Exploring port to HTC Ace (Desire HD/Inspire 4G)\\
+			\indent Very early in process -- no significant progress yet\\
+		{\large \emph{Notman}} --- Linux D-Bus notification manager in Python \& PyGTK\\
+			\indent Proof-of-concept complete, shelved\\
+		{\large \emph{YADA (``Yet Another Dropbox App'')}} --- Hash-based client/server file sync in C\\
+			\indent Completed for school assignment, development ceased\\
+		{\large \emph{MetronOSH}} --- Arduino-based Open Source Hardware metronome (similar to Boss DB-88)\\
+			\indent Submitted to 2011 Open Hardware Summit scholarship contest, on indefinite hold\\
+		{\large \emph{RADuation Cap}} --- 8x8 RGB LED array on graduation cap; Arduino driven over Bluetooth via Android app\\
+			\indent In initial design phase, to be used in June 2013}
+
+
+	\section{Skills}%
+		\begin{minipage}[t]{\textwidth}
+		\vspace{-10pt}
+		\begin{multicols}{2}
+			\textbf{Languages}
+			\begin{csitemize}
+				\item C
+				\item Java
+				\item \LaTeX
+				\item Bash \& Zsh
+				\item Python
+				\item Perl (a bit rusty)\columnbreak
+			\end{csitemize}
+
+			\textbf{Software \& Toolkits}
+			\begin{csitemize}
+				\item Linux CLI Toolchain
+				\item Vim
+				\item Git, Mercurial, Subversion
+				\item Android SDK
+				\item Arduino
+				\item Wireshark
+				\item GNU Make
+			\end{csitemize}
+		\end{multicols}
+		\begin{multicols}{2}
+			\textbf{Networking Protocols}
+			\begin{csitemize}
+				\item Gatewaying
+				\item HTTP
+				\item Mobile Ad-Hoc Networking
+				\item Multicast
+				\item TCP/IP
+				\item UDP
+				\item WPA \& WPA2\columnbreak
+			\end{csitemize}
+
+			\textbf{Operating Systems}
+			\begin{csitemize}
+				\item Linux (Arch, RHEL, Ubuntu)
+				\item Unix (Solaris 9)
+				\item Mac OS (10.5, 10.6)
+				\item Windows (95+)
+			\end{csitemize}
+		\end{multicols}
+		\end{minipage}
+\end{document}
