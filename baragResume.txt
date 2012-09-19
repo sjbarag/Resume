@@ -32,10 +32,10 @@ Experience      ^
                 |         standards requirements
                 |       * Write Excel plugin to automatically format data for
                 |         vulnerability reports
-                |       * Run bi-weekly departmental meetings on current tool
-                |         status and best-use information
                 |       * Coordinate with senior engineers and senior executives
                 |         for weekly status updates
+                |       * Create departmental wiki for tool documentation and
+                |         usage tips
                 |
         Mar -   +   Lockheed Martin MS2 in Moorestown, NJ
        Sep 2011 |   Coop Technical Senior - Computer Infrastructure &
