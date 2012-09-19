@@ -11,7 +11,7 @@ Education
 * Drexel University (Philadelphia, PA)
 * BS Candidate in Computer Engineering
 * BS Candidate in Electrical Engineering, Electronics
-* Cumulative GPA: 3.57 | In Major: 3.63
+* Cumulative GPA: 3.58 | In Major: 3.63
 * Anticipated Graduation - June 2013
 
 
@@ -34,8 +34,8 @@ April - September 2012
 * Harden mission-critical systems by applying updates and patches
 * Research new scanning software to comply with new DoD standards requirements
 * Write Excel plugin to automatically format data for vulnerability reports
-* Run bi-weekly departmental meetings on current tool status and best-use information
 * Coordinate with senior engineers and senior executives for weekly status updates
+* Create departmental wiki for tool documentation and usage tips
 
 Lockheed Martin MS2 in Moorestown NJ
 Coop Technical Senior - Computer Infrastructure and Information Testing (CIIT)
@@ -77,12 +77,9 @@ Projects
 Textspansion
 * Text expansion for Android devices
 * Released June 2011, under continued development
-Asana for Android
-* Native Android client for asana.com collaborative planning webapp
-* Unreleased, under active development
 Boot2Gecko Port
 * Exploring port of Boot2Gecko for HTC Ace (Desire HD/Inspire 4G)
-* Very early in process - no significant progress yet
+* OS built but won't boot - init.rc is incorrect
 Notman
 * Linux D-Bus notification manager in Python & PyGTK
 * Proof-of-concept complete, shelved
