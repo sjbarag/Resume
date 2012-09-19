@@ -93,10 +93,6 @@ Experience      ^
 Projects            Textspansion
                         * Text expansion for Android devices
                         * Released June 2011, under continued development
-                    Asana for Android
-                        * Native Android client for asana.com collaborative
-                          planning webapp
-                        * Unreleased, under active development
                     Boot2Gecko Port
                         * Exploring port of Boot2Gecko for HTC Ace
                           (Desire HD/Inspire 4G)
