@@ -96,7 +96,7 @@ Projects            Textspansion
                     Boot2Gecko Port
                         * Exploring port of Boot2Gecko for HTC Ace
                           (Desire HD/Inspire 4G)
-                        * Very early in process - no significant progress yet
+                        * OS built but won't boot - init.rc is incorrect
                     Notman
                         * Linux D-Bus notification manager in Python & PyGTK
                         * Proof-of-concept complete, shelved
