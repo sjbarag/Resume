@@ -5,7 +5,7 @@
 /** Sean Barag **/                                         sjbarag@gmail.com   @
 /****************/                                 http://github.com/sjbarag  <>
 
--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 Education           Drexel University                           Philadelphia, PA
                     BS Candidate in Computer Engineering
                     BS Candidate in Electrical Engineering, Electronics
