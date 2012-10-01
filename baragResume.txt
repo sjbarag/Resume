@@ -119,7 +119,7 @@ Coursework          Parallel Computing
                         * Two-course sequence on data center modeling,
                           operation, and management
                     Advanced Networking
-                        * Two-course sequence on networking programming and
+                        * Two-course sequence on network programming and
                           advanced routing
 
 
