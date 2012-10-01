@@ -113,6 +113,15 @@ Projects            Textspansion
                         * Arduino driven, controlled over Bluetooth via Android
                         * In initial design phase, to be used in June 2013
 
+Coursework          Parallel Computing
+                        * Three-course sequence using OpenMP and CUDA
+                    Data Center Management
+                        * Two-course sequence on data center modeling,
+                          operation, and management
+                    Advanced Networking
+                        * Two-course sequence on networking programming and
+                          advanced routing
+
 
 Skills              Languages
                         * C
