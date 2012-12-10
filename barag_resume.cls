@@ -73,7 +73,7 @@
     \begin{tabular}{r c}
         \@ifundefined{@homeaddress} {}{\@homeaddress          & \tikzhome \\  } % house
         \@ifundefined{@phonenumber} {}{\@phonenumber          & \Mobilefone\\ } % telephone
-        \@ifundefined{@emailaddress}{}{\mailto{\@emailaddress} & \Letter \\    } % envelope
+        \@ifundefined{@emailaddress}{}{\mailto{\@emailaddress}& \Letter \\    } % envelope
         \@ifundefined{@portfolio}   {}{\url{\@portfolio}      & \texttt{\textless \textgreater}} % <>
     \end{tabular}\hspace{-1em}
 }
