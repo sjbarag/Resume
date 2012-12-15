@@ -103,6 +103,11 @@
   \begin{itemize*}\vspace{-1em}}
 {\end{itemize*}}
 
+% ----- project entries -----
+\newcommand{\project}[3]{%
+{\large \emph{#1}} --- #2{\setlength{\parindent}{1em}\\
+\indent #3\\}}
+
 % ----- computer skills itemize -----
 \newenvironment{csitemize}
 {\begin{list}{\labelitemi}{\leftmargin=.5cm \itemindent=0em}}
