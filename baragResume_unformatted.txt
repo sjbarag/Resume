@@ -11,21 +11,23 @@ Education
 * Drexel University (Philadelphia, PA)
 * BS Candidate in Computer Engineering
 * BS Candidate in Electrical Engineering, Electronics
+* Minor in Computer Science
 * Cumulative GPA: 3.58 | In Major: 3.63
 * Anticipated Graduation - June 2013
 
 
-Honors and Awards
-=================
-* Android app "Textspansion" - 5400+ Downloads
-** "Best Text Expansion App for Android" - Lifehacker.com
-* Dean's List (5x)
-* A.J. Drexel Scholarship Participant
-* National Society of Collegiate Scholars Member
-
-
 Experience
 ==========
+Senior Design Project in Philadelphia, PA
+Embedded System Designer & Programmer
+September 2012 - June 2013
+--------------------------
+* Design, test and deploy a waterproof ammeter with non-volatile storage
+* Responsible for microcontroller, real-time clock, storage, and USB interface to client software
+* Implement USB mass-storage device class with 16-bit microcontroller
+* Provide software design support for desktop client application
+* Select appropriate parts and associated embedded circuit portions
+
 Lockheed Martin MS2 in Moorestown NJ
 Coop Technical Senior - Information Assurance (IA)
 April - September 2012
@@ -72,17 +74,26 @@ July 2009 - March 2010
 * Organized and inventoried journal publications, computer parts, and other hardware
 
 
+Honors and Awards
+=================
+* Android app "Textspansion" - 5400+ Downloads
+** "Best Text Expansion App for Android" - Lifehacker.com
+* Dean's List (5x)
+* A.J. Drexel Scholarship Participant
+* National Society of Collegiate Scholars Member
+
+
 Projects
 ========
-Textspansion
-* Text expansion for Android devices
-* Released June 2011, under continued development
-Boot2Gecko Port
-* Exploring port of Boot2Gecko for HTC Ace (Desire HD/Inspire 4G)
-* OS built but won't boot - init.rc is incorrect
 Notman
 * Linux D-Bus notification manager in Python & PyGTK
-* Proof-of-concept complete, shelved
+* Proof-of-concept complete, under sporadic development
+Textspansion
+* Text expansion for Android devices
+* Released June 2011, development on hold
+Boot2Gecko Port
+* Explored port of Boot2Gecko for HTC Ace (Desire HD/Inspire 4G)
+* OS built but won't boot - init.rc is incorrect
 YADA ("Yet Another Dropbox App")
 * Hash-based client/server file sync in C
 * Completed for school assignment, development ceased
@@ -91,7 +102,6 @@ MetronOSH
 * Submitted to 2011 Open Hardware Summit scholarship contest, shelved
 RADuation Cap
 * 8x8 RGB LED array on graduation cap
-* Arduino driven, controlled over Bluetooth via Android
 * In initial design phase, to be used in June 2013
 
 
@@ -111,20 +121,21 @@ Software & Toolkits
 * Git, Mercurial, Subversion
 * Android SDK
 * Arduino
+* NVIDIA CUDA
 * Wireshark
 * GNU Make
 
 Networking Procols
-* Gatewaying
 * HTTP
 * Mobile Ad-Hoc Networking
 * Multicast
 * TCP/IP
 * UDP
+* USB Mass Storage
 * WPA & WPA2
 
 Operating Systems
-* Linux (Arch, RHEL, Ubuntu)
+* Linux (Arch, RHEL, Ubuntu, Debian)
 * Unix (Solaris 9)
 * Mac OS (10.5, 10.6)
 * Windows (95 - 7)
