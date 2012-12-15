@@ -104,16 +104,16 @@ Honors and Awards   Android app "Textspansion" - 5900+ Downloads
                     National Society of Collegiate Scholars Member
 
 
-Projects            Textspansion
+Projects            Notman
+                        * Linux D-Bus notification manager in Python & PyGTK
+                        * Proof-of-concept complete, under sporadic development
+                    Textspansion
                         * Text expansion for Android devices
-                        * Released June 2011, under continued development
+                        * Released June 2011, development on hold
                     Boot2Gecko Port
-                        * Exploring port of Boot2Gecko for HTC Ace
+                        * Explored port of Boot2Gecko for HTC Ace
                           (Desire HD/Inspire 4G)
                         * OS built but won't boot - init.rc is incorrect
-                    Notman
-                        * Linux D-Bus notification manager in Python & PyGTK
-                        * Proof-of-concept complete, shelved
                     YADA ("Yet Another Dropbox App")
                         * Hash-based client/server file sync in C
                         * Completed for school assignment, development ceased
@@ -124,7 +124,6 @@ Projects            Textspansion
                           contest, shelved
                     RADuation Cap
                         * 8x8 RGB LED array on graduation cap
-                        * Arduino driven, controlled over Bluetooth via Android
                         * In initial design phase, to be used in June 2013
 
 Skills              Languages
