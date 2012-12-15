@@ -9,36 +9,43 @@
 Education           Drexel University                           Philadelphia, PA
                     BS Candidate in Computer Engineering
                     BS Candidate in Electrical Engineering, Electronics
+                    Minor in Computer Science
                     Cumulative GPA: 3.58 | In Major: 3.63
                     Anticipated Graduation - June 2013
 
 
-Honors and Awards   Android app "Textspansion" - 5400+ Downloads
-                        "Best Text Expansion App for Android" - Lifehacker.com
-                    Dean's List (5x)
-                    A.J. Drexel Scholarship Participant
-                    National Society of Collegiate Scholars Member
-
-
 Experience      ^
                 |
+       Sep '12  +   Senior Design Project in Philadelphia, PA
+     - Jun '13  |   Embedded System Designer & Programmer
+                |       * Design, test and deploy a waterproof ammeter with
+                |         non-volatile storage
+                |       * Responsible for microcontroller, real-time clock,
+                |         storage, and USB interface to client software
+                |       * Implement USB mass-storage device class with 16-bit
+                |         microcontroller
+                |       * Provide software design support for desktop client
+                |         application
+                |       * Select appropriate parts and associated embedded
+                |         circuit portions
+                |
         Apr -   +   Lockheed Martin MS2 in Moorestown, NJ
-       Sep 2012 |   Coop Technical Senior - Information Assurance (IA)
-                |       * Scan mission-critical systems for vulnerabilities with
-                |         automated and manual tools
-                |       * Harden mission-critical systems by applying updates
+       Sep '12  |   Coop Technical Senior - Information Assurance (IA)
+                |       * Scanned mission-critical systems for vulnerabilities
+                |         with automated and manual tools
+                |       * Hardened mission-critical systems by applying updates
                 |         and patches
-                |       * Research new scanning software to comply with new DoD
-                |         standards requirements
-                |       * Write Excel plugin to automatically format data for
+                |       * Researched new scanning software to comply with new
+                |         DoD standards requirements
+                |       * Wrote Excel plugin to automatically format data for
                 |         vulnerability reports
-                |       * Coordinate with senior engineers and senior executives
-                |         for weekly status updates
-                |       * Create departmental wiki for tool documentation and
+                |       * Coordinated with senior engineers and senior
+                |         executives for weekly status updates
+                |       * Created departmental wiki for tool documentation and
                 |         usage tips
                 |
         Mar -   +   Lockheed Martin MS2 in Moorestown, NJ
-       Sep 2011 |   Coop Technical Senior - Computer Infrastructure &
+       Sep '11  |   Coop Technical Senior - Computer Infrastructure &
                 |                           Integration Testing
                 |       * Wrote Bash scripts to expedite deployment and
                 |         integration processes
@@ -55,7 +62,7 @@ Experience      ^
                 |         systems
                 |
         Mar -   +   ACIN (Applied Communications and Information Networking)
-       Sep 2010 |       in Camden, NJ
+       Sep '10  |       in Camden, NJ
                 |   Researcher, Directed by Dr. William Regli & Jeff Salvage
                 |       * Configured and tested four-node homogenous networking
                 |         testbed
@@ -73,8 +80,8 @@ Experience      ^
                 |       * Communicated directly with project sponsors from US
                 |         defense contractor CERDEC
                 |
-      Jul 2009  +   GICL (Geometric and Intelligent Computing Lab)
-     - Mar 2010 |       in Philadelphia, PA
+       Jul '09  +   GICL (Geometric and Intelligent Computing Lab)
+     - Mar '10  |       in Philadelphia, PA
                 |   Lab Assistant, Directed by Dr. William Regli
                 |       * Part of team that built and populated Engineering
                 |         Format Registry
@@ -88,6 +95,13 @@ Experience      ^
                 .         Semantic Template
                 .       * Organized and inventoried journal publications,
                 .         computer parts, and other hardware
+
+
+Honors and Awards   Android app "Textspansion" - 5900+ Downloads
+                        "Best Text Expansion App for Android" - Lifehacker.com
+                    Dean's List (5x)
+                    A.J. Drexel Scholarship Participant
+                    National Society of Collegiate Scholars Member
 
 
 Projects            Textspansion
@@ -127,16 +141,17 @@ Skills              Languages
                         * Git, Mercurial, Subversion
                         * Android SDK
                         * Arduino
+                        * NVIDIA CUDA
                         * Wireshark
                         * GNU Make
 
                     Networking Procols
-                        * Gatewaying
                         * HTTP
                         * Mobile Ad-Hoc Networking
                         * Multicast
                         * TCP/IP
                         * UDP
+                        * USB Mass Storage
                         * WPA & WPA2
 
                     Operating Systems
