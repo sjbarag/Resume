@@ -31,7 +31,6 @@
      BoldFont={* Semibold},
      BoldItalicFont={* Semibold Italic}]
     {Source Sans Pro}
-    %{Open Sans}
 
 %\setsansfont
 %    [Ligatures=TeX, % recommended
