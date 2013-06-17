@@ -23,7 +23,7 @@
 \usepgflibrary{arrows}                   % loads nicer arrows in PGF for the timeline
 
 % ----- set up fonts -----
-\newfontfamily{\sspb}{Source Sans Pro}
+\newfontfamily{\sspb}[Ligatures=TeX]{Source Sans Pro}
 \setsansfont
     [Ligatures=TeX, % recommended
      UprightFont={* Light},
