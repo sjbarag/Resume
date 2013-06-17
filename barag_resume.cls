@@ -83,7 +83,7 @@
 \fancyheadoffset[LO,LE]{\marginparsep+\marginparwidth}        % header goes across marginpar
 \pagestyle{fancy}
 \lhead{%
-    \Huge \@author
+    \Huge {\sspb\@author}
 }
 \rhead{%
     \flushright
