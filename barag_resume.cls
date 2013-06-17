@@ -8,20 +8,39 @@
 
 \RequirePackage{geometry}
 \RequirePackage{fancyhdr}                % It's a fancy... wait for it... header!
-\RequirePackage{libertine}               % Linux Libertine fonts
 \RequirePackage{marvosym}                % Provides symbols next to contact info
 \RequirePackage{ifsym}                   % Provides the house symbol next to contact info
 \RequirePackage{mdwlist}                 % itemize* and friends are more compact
 \RequirePackage{parskip}                 % Use whitespace to delimit paragraphs & prevent indentations
 \RequirePackage{multicol}                % Multiple columns for computer skills section
 \RequirePackage{hyperref}                % Hyperlinks and metadata
-\RequirePackage[T1]{fontenc}             % Use Type1 fonts
 \RequirePackage{calc}                    % Calculate box lengths
 \RequirePackage{tikz}                    % Draw a neat li'l timeline
 \RequirePackage{etoolbox}                % Checks for definition of things
+\RequirePackage{fontspec}                % Use fontspec for really nice fonts
 
 \usetikzlibrary{calc}                    % allows more precise layout in TikZ
 \usepgflibrary{arrows}                   % loads nicer arrows in PGF for the timeline
+
+% ----- set up fonts -----
+\newfontfamily{\sspb}{Source Sans Pro}
+\setsansfont
+    [Ligatures=TeX, % recommended
+     UprightFont={* Light},
+     ItalicFont={* Italic},
+     BoldFont={* Semibold},
+     BoldItalicFont={* Semibold Italic}]
+    {Source Sans Pro}
+    %{Open Sans}
+
+%\setsansfont
+%    [Ligatures=TeX, % recommended
+%     UprightFont={* Condensed},
+%     ItalicFont={* Oblique},
+%     BoldFont={* Bold},
+%     BoldItalicFont={* Bold Oblique}]
+%    {DejaVu Sans}
+\renewcommand*\familydefault{\sfdefault} % apply linux biolinum (sans-serif)
 
 % ----- set up document geometry -----
 \geometry{top=.25in,
@@ -33,7 +52,6 @@
           letterpaper,
           includehead, includefoot}
 
-\renewcommand*\familydefault{\sfdefault} % apply linux biolinum (sans-serif)
 \urlstyle{same}                          % sans-serif URLs
 
 % ----- hyperlink & metadata setup -----
@@ -99,7 +117,7 @@
   \end{tikzpicture}%
 %
 {\large\emph{#1}\ }{\small in #2} \\
-             #3
+       {\sspb#3}
   \begin{itemize*}\vspace{-1em}}
 {\end{itemize*}}
 
