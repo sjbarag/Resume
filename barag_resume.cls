@@ -23,14 +23,15 @@
 \usepgflibrary{arrows}                   % loads nicer arrows in PGF for the timeline
 
 % ----- set up fonts -----
-\newfontfamily{\sspb}[Ligatures=TeX]{Source Sans Pro}
+\newfontfamily{\sspb}[Ligatures=TeX, UprightFont={* Semibold}]{Source Sans Pro}
 \setsansfont
     [Ligatures=TeX, % recommended
      UprightFont={* Light},
      ItalicFont={* Italic},
-     BoldFont={* Semibold},
+     BoldFont={*},
      BoldItalicFont={* Semibold Italic}]
     {Source Sans Pro}
+\newcommand{\sspbold}[1]{{\sspb#1}}
 
 %\setsansfont
 %    [Ligatures=TeX, % recommended
@@ -83,7 +84,7 @@
 \fancyheadoffset[LO,LE]{\marginparsep+\marginparwidth}        % header goes across marginpar
 \pagestyle{fancy}
 \lhead{%
-    \Huge {\sspb\@author}
+    \Huge \textbf{\@author}
 }
 \rhead{%
     \flushright
@@ -103,7 +104,7 @@
 
 % ----- resume section titles -----
 \renewcommand*{\section}[1]{%
-    \hspace{0pt}\marginpar{\textbf{#1}}\relax
+    \hspace{0pt}\marginpar{\sspbold{#1}}\relax
 }
 
 % ----- job entries -----
@@ -116,7 +117,7 @@
   \end{tikzpicture}%
 %
 {\large\emph{#1}\ }{\small in #2} \\
-       {\sspb#3}
+       #3
   \begin{itemize*}\vspace{-1em}}
 {\end{itemize*}}
 
