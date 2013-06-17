@@ -17,15 +17,15 @@ Experience      ^
                 |
        Sep '12  +   Senior Design Project in Philadelphia, PA
      - Jun '13  |   Embedded System Designer & Programmer
-                |       * Design, test and deploy a waterproof ammeter with
+                |       * Designed, tested and deployed a waterproof ammeter with
                 |         non-volatile storage
                 |       * Responsible for microcontroller, real-time clock,
                 |         storage, and USB interface to client software
-                |       * Implement USB mass-storage device class with 16-bit
-                |         microcontroller
-                |       * Provide software design support for desktop client
+                |       * Implemented USB mass-storage device class with 16-bit
+                |         microcontroller and microSD card
+                |       * Provided software design support for desktop client
                 |         application
-                |       * Select appropriate parts and associated embedded
+                |       * Selected appropriate parts and associated embedded
                 |         circuit portions
                 |
         Apr -   +   Lockheed Martin MS2 in Moorestown, NJ
